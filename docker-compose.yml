@@ -1,0 +1,9 @@
+version: "0.1"
+
+services:
+  haberlendir:
+    container_name: "haberlendir"
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 42069:42069
